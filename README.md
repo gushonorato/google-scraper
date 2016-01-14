@@ -7,8 +7,10 @@ Google Scraper returns all Google Search results in a object oriented fashion. I
 Add the line in your gemfile. Version 0.0.1 is not released yet, you have to add a reference to this Github until the release. 
 
 ```ruby
-gem 'google-scraper' github: 'ghonorato/google-scraper'
+gem 'google-scraper', github: 'ghonorato/google-scraper'
 ```
+
+Because Google Scraper uses [Capybara](https://github.com/jnicklas/capybara) and [Poltergeist](https://github.com/teampoltergeist/poltergeist) for scraping, you must have [PhantonJS](http://phantomjs.org/) installed on your system. 
 
 ## Simple example
 
