@@ -1,0 +1,15 @@
+#!/usr/bin/env ruby
+
+require 'google-scraper'
+
+engine = GoogleScraper::Engine.new
+results = engine.query(ARGV[0])
+
+results.each do |r| 
+  puts "#{r.rank} (Position #{r.page_position} for page #{r.page_number})"
+  puts r.title
+  puts "-> #{r.url}"
+  puts r.friendly_url
+  puts r.meta_description
+  puts ""
+end
