@@ -13,6 +13,7 @@ Gem::Specification.new do |s|
   s.license       = 'MIT'
 
   s.add_runtime_dependency 'capybara'
-  s.add_runtime_dependency 'selenium-webdriver'
+  s.add_runtime_dependency 'poltergeist'
+  s.add_development_dependency 'selenium-webdriver'
 
 end
