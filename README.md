@@ -1,8 +1,16 @@
 # Google Scraper
 
-Google Scraper returns all Google Search results in a object oriented fashion. It wraps the boilerplace logic by parsing HTML from Google Search Results Page. All results are obtained directly from Google's SERP and not from deprecated Google Web Search API.
+Google Scraper returns all Google Search results in a object oriented fashion. It wraps the boilerplate logic by parsing HTML from Google Search Results Page. All results are obtained directly from Google's SERP and not from deprecated Google Web Search API.
 
-# Simple example
+## Installing
+
+Add the line in your gemfile. Version 0.0.1 is not released yet, you have to add a reference to this Github until the release. 
+
+```ruby
+gem 'google-scraper' github: 'ghonorato/google-scraper'
+```
+
+## Simple example
 
 ```ruby
 #!/usr/bin/env ruby
